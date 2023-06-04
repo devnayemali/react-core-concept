@@ -25,3 +25,10 @@ p, h1, h2, h3, h4, h5, h6 {
   color: white;
   margin: 30px;
 }
+
+.border{
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
