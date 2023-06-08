@@ -31,4 +31,23 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 30px;
+  padding: 10px;
+}
+
+.border2{
+  border: 1px solid rgb(207, 207, 207);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.increas_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #8080802e;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
 }

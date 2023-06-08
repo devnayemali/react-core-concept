@@ -13,7 +13,7 @@ const developers = [
   const singleDevelopers = ['Md Nayem Ali', 'Parvaj Ali', 'Tanzil Islam', 'Shagor Ali', 'Hasibul Islam'];
 
 
-  export const Pactice = () => {
+  export const Pactice01 = () => {
     return (
         <div className='border'>
             <h1>Pactice 01: Props, map, dynamic data</h1>
