@@ -4,6 +4,13 @@ body{
 p, h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
+p{
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+.mb-5{
+  margin-bottom: 5px;
+}
 .container{
   max-width: 1000px;
   margin: 20px auto;
@@ -50,4 +57,23 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   margin-top: 10px;
   cursor: pointer;
+}
+
+
+.grid_col_03{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.item_box{
+  border: 1px solid rgba(128, 128, 128, 0.222);
+  padding: 20px;
+}
+
+.img_100{
+  max-width: 100%;
+}
+.bg_white{
+  background-color: #fff;
 }

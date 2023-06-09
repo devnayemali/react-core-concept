@@ -12,9 +12,6 @@ export const Pactice03 = () => {
 const GetUsers = () => {
 
     const [users, setUsers] = useState([]);
-
-    console.log(users);
-
     useEffect(() => {
 
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -27,7 +24,7 @@ const GetUsers = () => {
         <div>
             <h1>External User List Here</h1>
             <ul>
-                {users.map(user => <User name={user.name} email={user.email} address={user.address} website={user.website} />)}
+                {users.map(user => <User key={user.email} name={user.name} email={user.email} address={user.address} website={user.website} />)}
             </ul>
         </div>
     );

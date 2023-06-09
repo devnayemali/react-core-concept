@@ -22,7 +22,7 @@ const developers = [
         } */}
 
             {
-                developers.map(developer => <Person name={developer.name} job={developer.job} />)
+                developers.map(developer => <Person key={developer.name} name={developer.name} job={developer.job} />)
             }
         </div>
     );
